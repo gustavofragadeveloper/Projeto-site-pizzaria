@@ -1,18 +1,19 @@
 @charset "UTF-8";
 
-body{
+body {
     background-color: rgb(23, 23, 43);
     font-family: Arial, Helvetica, sans-serif;
     overflow: hidden;
-  }
+}
 
-.area-codigo{
+.area-codigo {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
 }
-.codigo{
+
+.codigo {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -22,18 +23,21 @@ body{
     padding: 35px;
     border-radius: 8px;
 }
-p{
+
+p {
     color: rgb(204, 214, 224);
     text-transform: uppercase;
     font-size: small;
-    
+
 }
-.codigo form{
+
+.codigo form {
     width: 100%;
     flex-direction: column;
     display: flex;
 }
-.codigo input{
+
+.codigo input {
     background-color: rgb(30, 30, 54);
     outline: none;
     border: none;
@@ -42,21 +46,24 @@ p{
     height: 35px;
     margin-top: 10px;
     border-radius: 8px;
-    
+
 }
-input::placeholder{
+
+input::placeholder {
     color: rgb(212, 220, 226);
 }
-.codigo img{
+
+.codigo img {
     width: 230px;
     height: auto;
 }
-input[type="submit"]{
+
+input[type="submit"] {
     width: 100px;
     text-transform: uppercase;
     display: block;
     font-weight: bold;
     align-self: center;
     background-color: rgb(53, 118, 240);
-    
+
 }
