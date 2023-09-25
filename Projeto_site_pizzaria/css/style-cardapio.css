@@ -37,7 +37,7 @@ h1 {
     height: 100px;
 }
 
-input[type="submit"] {
+.button-style {
     display: block;
     background-color: rgb(33, 129, 218);
     text-transform: uppercase;
