@@ -4,26 +4,65 @@
 
 body {
     background-color: rgb(23, 23, 43);
+    margin: 0;
 }
 
 h1 {
     color: #f0e7e7;
     font-size: 26px;
 }
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(15, 15, 29);
+    align-items: center; 
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-bottom: 50px;
+}
 
 .area-total {
     
     padding: 15px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
-.area-pepperoni-pizza {
-    height: 500px;
+#area-pepperoni-pizza {
+    height: 400px;
     width: 250px;
     color: #f0e7e7;
-    background-color: black;
+    background-color: rgb(13, 10, 34);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 8px;
 }
+#area-portuguesa-pizza{
+    background-color: rgb(13, 10, 34);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 8px;
+}
+.img-perfil{
+    width: 50px;
+    height: 50px;
+}
+.perfil-icon{
+   background-color: #c3c5d6;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 50%;
+}
+.link-edicao-perfil{
+    display:flex;
+}
+
 
 #img-pepperoni-pizza {
     height: 100px;
@@ -35,9 +74,9 @@ h1 {
 }
 
 #img-pizza-portuguesa {
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
+   height: 100px;
+   border-radius: 8px;
+
 }
 
 .button-style {
@@ -55,6 +94,8 @@ h1 {
     text-decoration: none;
     text-align: center;
     color: #f0e7e7;
+    display: flex;
+    justify-content: center;
 }
 
 #link_carrinho button {
@@ -65,4 +106,8 @@ h1 {
     color: #f0e7e7;
     height: 25px;
     width: auto;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
