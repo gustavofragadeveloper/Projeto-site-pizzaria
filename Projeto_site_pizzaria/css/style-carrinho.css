@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(23, 23, 43);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(36, 33, 48);
+    width: 500px;
+    height: 300px;
+    border-radius: 8px;
+    padding: 10px 20px;
+
+}
