@@ -12,15 +12,17 @@ h1 {
 }
 
 .area-total {
-    background-color: rgb(17, 16, 32);
+    
     padding: 15px;
     display: flex;
     justify-content: space-around;
 }
 
 .area-pepperoni-pizza {
-    height: auto;
+    height: 500px;
+    width: 250px;
     color: #f0e7e7;
+    background-color: black;
 }
 
 #img-pepperoni-pizza {
@@ -29,6 +31,7 @@ h1 {
 
 .area-description {
     color: #f0e7e7;
+    
 }
 
 #img-pizza-portuguesa {

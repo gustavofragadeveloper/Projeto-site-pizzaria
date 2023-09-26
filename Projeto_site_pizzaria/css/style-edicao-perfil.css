@@ -29,6 +29,9 @@ section {
 .edicao form {
     width: 100%;
     flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .edicao input {
@@ -59,12 +62,14 @@ input::placeholder {
     font-size: 14px;
 }
 
-input[type="submit"] {
+form [type="submit"]{
     display: block;
     background-color: rgb(33, 129, 218);
     text-transform: uppercase;
     font-weight: bold;
     font-size: 17px;
-    margin: 14px;
-    width: 270px;
+    padding: 10px;
+    margin-top: 30px;
+   
+
 }
