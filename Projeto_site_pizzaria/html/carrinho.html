@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BRs">
 
 <head>
     <meta charset="UTF-8">
@@ -12,16 +12,49 @@
 <body>
     <section>
         <h1>Carrinho</h1>
-        <div>
-            <h2>Itens adicionados</h2>
-            <br>
-            <ol>
-            </ol>
+        <div class="area-carrinho">
+            <div class="area-descricao">
+                <h3>Itens adicionados</h3>
+                <ul>
+                    <li>1x - Pizza pepperoni= R$50,00</li>
+                    <li>1x - Pizza portuguesa= R$50,00</li>
+                </ul><br>
+                <p>Total = R$100,00</p>
+
+            </div>
+            <div class="area-descricao">
+                <h3>Endereço</h3>
+                <form>
+                    <label for="endereco">Informe seu endereço:</label>
+                    <input type="text">
+                </form>
+                <button type="button" onclick="calcular_frete()">Enviar</button>
+                <p id="resultado"></p>
+            </div>
+            <div class="area-descricao">
+                <h3>Método de pagamento</h3>
+                <form>
+                    <label for="pix"><abbr title="Pix"><img src="../imagens/pix.jpg" alt="pix"
+                                class="img-pagamentos"></abbr></label>
+                    <input type="radio" name="opcao">
+                    <label for="Dinheiro"><abbr title="Dinheiro"><img src="../imagens/dinheiro.webp" alt=""
+                                class="img-pagamentos"></abbr></label>
+                    <input type="radio" name="opcao">
+                    <label for="cartao">
+                        <abbr title="Cartão de crédito"><img src="../imagens/credito.png" alt=""
+                                class="img-pagamentos"></abbr>
+                    </label>
+                    <input type="radio" name="opcao">
+                </form>
+            </div>
+            <div class="botao">
+                <form action="../html/cardapio.html">
+                    <input type="submit" name="Finalizar" id="botao-finalizar" value="Finalizar">
+                </form>
+            </div>
         </div>
     </section>
-    <script>
-
-    </script>
+    <script src="../javascript/carrinho.js"></script>
 </body>
 
 </html>
