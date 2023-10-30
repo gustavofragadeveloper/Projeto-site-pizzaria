@@ -44,7 +44,10 @@
                         <abbr title="Cartão de crédito"><img src="../imagens/credito.png" alt=""
                                 class="img-pagamentos"></abbr>
                     </label>
-                    <input type="radio" name="opcao">
+                    <input type="radio" name="opcao"> <br> <br>
+                    <label for="desconto">Código promocional: <input type="text" name="desconto" id="desconto"></label>
+                    <button type="button" class="botao" onclick="calcularPreco()">Calcular preço</button> 
+                    <p id="result"></p>
                 </form>
             </div>
             <div class="botao">

@@ -34,7 +34,7 @@ h2 {
     height: 30px;
     width: 30px;
 }
-.botao input{
+.botao input, .botao{
     background-color: rgb(109, 183, 253);
     border: none;
     border-radius: 8px;
@@ -57,4 +57,8 @@ h2 {
     margin: 5px;
     padding: 5px 15px;
     border-radius: 8px;
+}
+
+#desconto {
+    margin-top: 5px;
 }
