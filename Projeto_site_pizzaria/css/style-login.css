@@ -19,7 +19,7 @@ body{
     align-items: center;
     background-color: rgb(17, 16, 32);
     width: 355px;
-    height: 370px;
+    height: auto ;
     padding: 35px;
     border-radius: 8px;
 
@@ -43,7 +43,7 @@ body{
 
 .login img{
     width: 200px;
-    height: auto;
+    height:auto;
 }
 
 input::placeholder{
@@ -58,6 +58,23 @@ form [type="submit"]{
     font-weight: bold;
     font-size: 17px;
 }
+
+#textEmail{
+    color: red;
+    text-align: center;
+    margin-top: 5px;
+}
+#textPassword{
+    color: red;
+    text-align: center;
+    margin-top: 5px;
+}
+#textForm{
+    color: red;
+    text-align: center;
+    margin-top: 5px;
+}
+
 
 p{
     color: aliceblue;
