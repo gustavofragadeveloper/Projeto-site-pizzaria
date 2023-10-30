@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pizza Planet</title>
     <link rel="shortcut icon" href="../imagens/Pizza_Planet.webp" type="image/x-icon">
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/style-login.css">
 </head>
 
 <body>
@@ -16,16 +16,20 @@
                 <img src="../imagens/Pizza_Planet.webp" alt="img-pizza-planet">
             </div>
 
-            <form action="cardapio.html">
-                <input type="text" name="nome" placeholder="Nome de usuário" autofocus>
-                <input type="password" name="senha" placeholder="Sua senha">
+            <form action="cardapio.html" id="form">
+                <input type="text" name="nome" placeholder="email" autofocus id="email">
+                <small id="textEmail"></small>
+                <input type="password" name="senha" placeholder="Sua senha" id="password">
+                <small id="textPassword"></small>
                 <input type="submit" value="Entrar">
+                <small id="textForm"></small>
             </form>
             <p>Ainda não tem uma conta?<a href="cadastramento.html" target="_blank">Criar conta</a></p>
             <p id="forgot-password"><a href="esqueci-senha.html">Esqueci minha senha</a></p>
 
         </div>
     </section>
+    <script src="../javascript/script_login.js"></script>
 </body>
 
 </html>
