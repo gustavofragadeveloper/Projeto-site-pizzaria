@@ -59,6 +59,11 @@ form [type="submit"]{
     font-size: 17px;
 }
 
+.botao:hover{
+    cursor: pointer;
+    background-color: rgb(20, 114, 202);
+}
+
 #textEmail{
     color: red;
     text-align: center;
